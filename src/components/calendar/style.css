@@ -1,0 +1,82 @@
+.calendar-wrapper{
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 633px;
+    border: 12px solid  #439a91;
+    width: 1277px;
+
+}
+
+
+.current-day-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #5ccfc4;
+}
+
+.current-day-wrapper h1 {
+    font-size: 200px;
+    color: white;
+    margin-top: 80px;
+
+
+
+}
+
+
+.current-day-wrapper h2 {
+    font-size: 27px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+
+
+.current-month-wrapper h2 {
+    background-color: white;
+    font-size: 27px;
+    color: #439a91;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+
+.current-month-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%
+}
+
+.week-day {
+    color: red;
+    font-size: 24px;
+
+}
+
+table {
+    width: 100%;
+    padding: 37px 107px;
+    height: 400px;
+}
+
+td {
+    text-align: center;
+    color: #ccc;
+    font-size: 27px;
+    font-weight: 600;
+    height: 53px;
+
+}
+
+.current-day-number {
+    color: red;
+    border-radius: 103%;
+    border: 2px solid red;
+    text-align: center;
+}
